@@ -1,0 +1,34 @@
+.navbar{
+   background-color: white;
+  
+  padding: 1rem 2rem;
+  position: fixed;
+  z-index: 1000;
+ height:80px;
+  width:100%;
+  top:0;
+  left:0;
+
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0 1rem;
+    gap:2rem
+   
+}
+
+.logo{
+    color:white;
+    font-size: 30px;
+}
+
+.link{
+    display:flex;
+    gap:2rem;
+   
+}
