@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 ;
   padding: 0;
   text-align: center;
@@ -21,7 +21,10 @@ body, html {
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
+.container{
+   height: calc(100vh - 80px);
+   background-color: aquamarine;
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

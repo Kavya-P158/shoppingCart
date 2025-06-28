@@ -1,0 +1,137 @@
+.cartContainer{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: #282828;
+    color: white;
+    min-height:calc(500px - 80px);
+    max-width:800px; 
+     margin: 0 auto; 
+   
+    
+
+      
+}
+
+.cartHeading{
+  font-weight: 800px;
+  font-size: large;
+}
+.cartItem{
+display: flex;
+justify-content:center;
+align-items: center;
+gap:20px;
+min-width:700px;
+ background-color: #1e1e1e;
+ padding:20px;
+ border:2px solid #333;
+}
+
+.imgContainer{
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+}
+.imgContainer img{
+  width:90px;
+  height:90px;
+}
+.quantityContainer{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  gap:10px;
+  margin:10px 0;
+}
+.quantityButton{
+  background-color: #333;
+  color:white;
+  width:30px;
+  height:30px;
+  cursor:pointer;
+  border:1px solid black;
+
+}
+.quantityButton:hover{
+  background-color: #4a4949;
+}
+
+.detailsContainer{
+  flex-grow:1;
+  
+}
+.detailsContainer h3{
+font-size: 1rem;
+}
+.removeButton{
+  background-color:rgb(212, 26, 26);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width:80px;
+  height:50px;
+  border-radius:7px;
+  padding:5px 12px;
+  
+}
+.removeButton:hover {
+    background: #e34444;
+}
+.totalContainer{
+   text-align: center;
+    padding: 20px;
+    background: #2d2d2d;
+    border-radius: 5px;
+    color: #f0f0f0;
+}
+.checkoutbtn{
+     background-color: rgb(25, 179, 25);
+     text-align: center;
+     white-space: nowrap;
+     width: max-content;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.checkoutbtn:hover{
+  background:rgb(20, 148, 16);
+}
+
+.modalContainer{
+  width: 350px;
+   height: 350px;
+   position: absolute;
+   left: 50%;
+   top: 50%; 
+   transform: translate(-50%, -50%);
+   /* margin-left: -150px;
+   margin-top: -150px; */
+ background: #1a1a1a;;
+ display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  
+  
+}
+.modalContent p{
+ white-space: nowrap;
+}
+
+.modalContent button{
+  padding:10px 12px;
+  background: #a55bb8;;
+  margin:5px;
+  border-radius:10px;
+  cursor: pointer;
+} 

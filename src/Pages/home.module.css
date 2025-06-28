@@ -1,0 +1,83 @@
+.shop{
+ 
+            
+  /* min-height: calc(100vh - 90px); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+ margin:0 auto;
+
+  height: 100%;
+  min-width: 1200px;
+    
+}
+.shopBtn{
+    height: 50px;
+    width: 15%;
+    border:none;
+    background-color: rgb(165, 91, 184);
+    cursor: pointer;
+    padding:10px 12px;
+    align-self: flex-start;
+    margin-left:500px;
+    margin-bottom:100px;
+    transition: all 0.3s ease;
+    border-radius:20px;
+   
+}
+.shopBtn a{
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color:white;
+  font-size: 1.1rem;;
+
+}
+
+.shopBtn:hover,
+.shopBtn a:hover{
+transform: scale(1.1);
+ 
+}
+
+.shopBtn:hover{
+ box-shadow: 0 4px 12px rgb(186, 167, 191);
+}
+.content{
+  display:flex;
+  align-items: center;
+  gap:1rem;
+}
+.image{
+
+  height:300px;
+  animation:slideInRight 0.8s ease;
+}
+
+.shophead{
+  font-weight: 500px;
+  font-size: 2rem;
+  color: white;
+  animation:slideInLeft 0.8s ease  ;
+}
+
+@keyframes slideInLeft{
+  from{
+    transform:translateX(-300%);
+    opacity: 0;
+  }
+  to{
+    transform:translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight{
+  from{
+    transform:translateX(300%);
+  }
+  to{
+    transform:translateX(0)
+  }
+}
